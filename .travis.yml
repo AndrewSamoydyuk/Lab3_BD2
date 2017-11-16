@@ -20,7 +20,6 @@ before_script:
 script:
 - ./gradlew assemble
 - ./gradlew check
-- ./gradlew codeCoverageReport
 - ./gradlew jacocoTestReport
 
 after_success:
