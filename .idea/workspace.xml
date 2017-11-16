@@ -105,8 +105,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -682,11 +682,8 @@
     <history-entry file="Lab_3_[check] - 2017.11.16 at 23h 03m 33s.xml">
       <configuration name="Lab_3 [check]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Lab_3_[test] - 2017.11.16 at 14h 33m 39s.xml">
-      <configuration name="Lab_3 [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Lab_3_[test] - 2017.11.16 at 15h 03m 53s.xml">
-      <configuration name="Lab_3 [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="Lab_3_[check] - 2017.11.16 at 23h 25m 54s.xml">
+      <configuration name="Lab_3 [check]" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="Lab_3_[test] - 2017.11.16 at 15h 07m 58s.xml">
       <configuration name="Lab_3 [test]" configurationId="GradleRunConfiguration" />
@@ -703,13 +700,15 @@
     <history-entry file="Lab_3_[test] - 2017.11.16 at 23h 03m 42s.xml">
       <configuration name="Lab_3 [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="Lab_3_[test] - 2017.11.16 at 23h 26m 00s.xml">
+      <configuration name="Lab_3 [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
     <history-entry file="TestClass - 2017.11.16 at 14h 33m 05s.xml">
       <configuration name="TestClass" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="273" y="20" width="1239" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -718,7 +717,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31464738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31464738" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -850,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="151">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
           <folding />
         </state>
       </provider>

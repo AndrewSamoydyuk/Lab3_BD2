@@ -10,6 +10,9 @@ env:
   - NEO4J_VERSION="3.3.0"
 
 before_install:
+- wget dist.neo4j.org/neo4j-community-$NEO4J_VERSION-unix.tar.gz
+- tar -xzf neo4j-community-$NEO4J_VERSION-unix.tar.gz
+- neo4j-community-$NEO4J_VERSION/bin/neo4j start
 - gradle wrapper
 - sudo apt-get install jq
 - wget -O ~/codacy-coverage-reporter-assembly-latest.jar $(curl https://api.github.com/repos/codacy/codacy-coverage-reporter/releases/latest | jq -r .assets[0].browser_download_url)
