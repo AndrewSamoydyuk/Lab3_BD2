@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestClass {
 
-    Lab3_main testInstance = new Lab3_main("bolt://localhost:7687", "neo4j", "neo4j");
+    //Lab3_main testInstance = new Lab3_main("bolt://localhost:7687", "neo4j", "neo4j");
 
     @Test
     public void task_3_a_isCorrect() {
