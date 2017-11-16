@@ -53,12 +53,13 @@ public class TestClass {
         assertEquals(expected, testInstance.task_3_h());
     }
 
+    /*
     @Test
     public void task_3_i_isCorrect() {
         String expected = "[[\"Bob\", 2], [\"Liza\", 1], [\"Nazar\", 1], [\"Andrew\", 1], [\"Dima\", 1], [\"Grishka\", 1], [\"Taras\", 1], [\"Misha\", 1]]";
         assertEquals(expected, testInstance.task_3_i());
     }
-
+*/
     @Test
     public void task_3_j_isCorrect() {
         String expected = "[[4]]";
