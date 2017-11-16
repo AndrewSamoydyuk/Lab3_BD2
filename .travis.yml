@@ -6,8 +6,8 @@ install: /bin/true
 jdk:
 - oraclejdk8
 
-services:
-  -neo4j
+env:
+  - NEO4J_VERSION="3.3.0"
 
 before_install:
 - gradle wrapper
