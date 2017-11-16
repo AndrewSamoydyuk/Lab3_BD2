@@ -7,9 +7,56 @@ public class Lab3_main
 {
     Driver driver;
 
-    public Lab3_main(String uri, String user, String password)
+    public Lab3_main()
     {
-        driver = GraphDatabase.driver(uri,AuthTokens.basic(user, password));
+        driver = GraphDatabase.driver("bolt://localhost:7687",AuthTokens.basic("neo4j", "neo4j"));
+
+        try (Session session = driver.session())
+        {
+            try (Transaction tx = session.beginTransaction())
+            {
+                tx.run("match (n)-[r]-() DELETE n,r;");
+                tx.success();
+            }
+        }
+
+        addPerson("Andrew", 19, 1, "male", new String[]{"Andrew First post","Andrew second post","Andrew third post"});
+        addPerson("Bob", 20, 2,"male", new String[]{"Bob First post","Bob second post","Bob third post", "Bob fourth post"});
+        addPerson("Ada", 18, 3,"Female", new String[]{"Ada First post","Ada second post"});
+        addPerson("Grishka", 17, 4,"male", new String[]{"Grishka First post","Grishka second post","Grishka third post"});
+        addPerson("Taras", 21, 5,"male", new String[]{"Taras First post","Taras second post"});
+        addPerson("Nazar", 22, 6,"male", new String[]{"Nazar First post","Nazar second post","Nazar third post", "Grishka fourth post"});
+        addPerson("Dima", 23, 7,"male", new String[]{"Dima First post","Dima second post","Dima third post"});
+        addPerson("Misha", 16, 8,"male", new String[]{"Misha First post","Misha second post"});
+        addPerson("Liza", 17, 9,"Female", new String[]{"Liza First post","Liza second post","Liza third post"});
+
+        addGroup("KPI",101);
+        addGroup("NAU",102);
+
+        addFriendRelation(1,3);
+        addFriendRelation(1,5);
+        addFriendRelation(2,3);
+        addFriendRelation(6,7);
+        addFriendRelation(4,2);
+        addFriendRelation(3,8);
+        addFriendRelation(5,9);
+        addFriendRelation(3,1);
+        addFriendRelation(5,1);
+        addFriendRelation(3,2);
+        addFriendRelation(7,6);
+        addFriendRelation(2,4);
+        addFriendRelation(8,3);
+        addFriendRelation(9,5);
+
+        addGroupRelation(101,2);
+        addGroupRelation(101,5);
+        addGroupRelation(101,7);
+        addGroupRelation(101,8);
+        addGroupRelation(102,1);
+        addGroupRelation(102,2);
+        addGroupRelation(102,4);
+        addGroupRelation(102,6);
+        addGroupRelation(102,9);
     }
 
     private void addPerson(String name, int Age, int Id , String sex, String[] posts)
@@ -361,7 +408,7 @@ public class Lab3_main
 
     public static void main(String... args)
     {
-        Lab3_main example = new Lab3_main("bolt://localhost:7687", "neo4j", "neo4j");
+
 
         //System.out.printf(example.task_3_a());
         //System.out.printf(example.task_3_b("male"));
@@ -424,10 +471,6 @@ public class Lab3_main
         example.addGroupRelation(102,6);
         example.addGroupRelation(102,9);
         */
-
-
-
-        example.close();
     }
 
 }
