@@ -1,3 +1,5 @@
+package mainPackage;
+
 import org.neo4j.driver.v1.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -5,7 +7,7 @@ import static org.neo4j.driver.v1.Values.parameters;
 
 public class Lab3_main
 {
-    Driver driver;
+    private Driver driver;
 
     public Lab3_main()
     {
@@ -136,7 +138,7 @@ public class Lab3_main
         }
     }
 
-    public String task_3_a ()
+    public String task3a ()
     {
         List<String> res= new ArrayList<String>();
 
@@ -155,7 +157,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_b (String sex)
+    public String task3b (String sex)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -173,7 +175,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_c (String name)
+    public String task3c (String name)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -191,7 +193,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_d (String name)
+    public String task3d (String name)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -209,7 +211,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_e ()
+    public String task3e ()
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -226,7 +228,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_f ()
+    public String task3f ()
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -243,7 +245,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_g (String name)
+    public String task3g (String name)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -261,7 +263,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_h ()
+    public String task3h ()
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -278,7 +280,7 @@ public class Lab3_main
         return res.toString();
 }
 
-    public String task_3_i ()
+    public String task3i ()
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -295,7 +297,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_3_j (String name)
+    public String task3j (String name)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -313,7 +315,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_4_a (String name)
+    public String task4a (String name)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -331,7 +333,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_4_b (int length)
+    public String task4b (int length)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -349,7 +351,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_4_c ()
+    public String task4c ()
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -366,7 +368,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_4_d (String name)
+    public String task4d (String name)
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -384,7 +386,7 @@ public class Lab3_main
         return res.toString();
     }
 
-    public String task_4_i ()
+    public String task4i ()
     {
         List<String> res= new ArrayList<String>();
         try (Session session = driver.session())
@@ -410,21 +412,21 @@ public class Lab3_main
     {
 
 
-        //System.out.printf(example.task_3_a());
-        //System.out.printf(example.task_3_b("male"));
-        //System.out.printf(example.task_3_c("Ada"));
-        //System.out.printf(example.task_3_d("Ada"));
-        //System.out.printf(example.task_3_e());
-        //System.out.printf(example.task_3_f());
-        //System.out.printf(example.task_3_g("Grishka"));
-        //System.out.printf(example.task_3_h());
-        //System.out.printf(example.task_3_i());
-        //System.out.printf(example.task_3_j("Misha"));
-        //System.out.printf(example.task_4_a("Bob"));
-        //System.out.printf(example.task_4_b(15));
-        //System.out.printf(example.task_4_c());
-        //System.out.printf(example.task_4_d("Dima"));
-        //System.out.printf(example.task_4_i());
+        //System.out.printf(example.task3a());
+        //System.out.printf(example.task3b("male"));
+        //System.out.printf(example.task3c("Ada"));
+        //System.out.printf(example.task3d("Ada"));
+        //System.out.printf(example.task3e());
+        //System.out.printf(example.task3f());
+        //System.out.printf(example.task3g("Grishka"));
+        //System.out.printf(example.task3h());
+        //System.out.printf(example.task3i());
+        //System.out.printf(example.task3j("Misha"));
+        //System.out.printf(example.task4a("Bob"));
+        //System.out.printf(example.task4b(15));
+        //System.out.printf(example.task4c());
+        //System.out.printf(example.task4d("Dima"));
+        //System.out.printf(example.task4i());
 
         /*
         example.addPerson("Andrew", 19, 1, "male", new String[]{"Andrew First post","Andrew second post","Andrew third post"});
