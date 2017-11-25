@@ -1,6 +1,6 @@
-package testPackage;
+package testpackage;
 
-import mainPackage.Lab3_main;
+import packagewithmainclass.Lab3_main;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
